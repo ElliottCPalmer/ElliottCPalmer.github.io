@@ -6,5 +6,5 @@ function theToryTumbler() {
 }
 function startTimer(){
     theToryTumbler();
-    window.setInterval(theToryTumbler, 1);
+    window.setInterval(theToryTumbler, 4000);
 }
