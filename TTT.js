@@ -4,4 +4,6 @@ function theToryTumbler() {
     console.log(tory);
     document.getElementsByTagName("body")[0].style.backgroundImage = `url(gifs/${gifs[tory]})`;
 }
-
+function startTimer(){
+    window.setInterval(theToryTumbler, 1000);
+}
