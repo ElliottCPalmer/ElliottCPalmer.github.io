@@ -5,5 +5,6 @@ function theToryTumbler() {
     document.getElementsByTagName("body")[0].style.backgroundImage = `url(gifs/${gifs[tory]})`;
 }
 function startTimer(){
-    window.setInterval(theToryTumbler, 1000);
+    theToryTumbler();
+    window.setInterval(theToryTumbler, 10);
 }
